@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center mt-4">Prediction Results</h2>
+        <div class="mt-4">
+            {% if prediction_text %}
+                <ul class="list-group">
+                    {% for text in prediction_text %}
+                        <li class="list-group-item text-success">{{ text }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+        <div class="mt-4 text-center">
+            <a href="/" class="btn btn-primary">Predict Another Value</a>
+        </div>
+    </div>
+</body>
+</html>
