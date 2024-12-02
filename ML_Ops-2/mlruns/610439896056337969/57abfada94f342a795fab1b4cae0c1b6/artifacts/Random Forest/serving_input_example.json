@@ -1,0 +1,66 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "Age",
+      "Total_Bilirubin",
+      "Alkaline_Phosphotase",
+      "Alamine_Aminotransferase",
+      "Aspartate_Aminotransferase",
+      "Total_Protiens",
+      "Albumin",
+      "Albumin_and_Globulin_Ratio"
+    ],
+    "data": [
+      [
+        19.0,
+        1.4,
+        178.0,
+        13.0,
+        26.0,
+        8.0,
+        4.6,
+        1.3
+      ],
+      [
+        12.0,
+        1.0,
+        719.0,
+        157.0,
+        108.0,
+        7.2,
+        3.7,
+        1.0
+      ],
+      [
+        60.0,
+        5.7,
+        214.0,
+        412.0,
+        850.0,
+        7.3,
+        3.2,
+        0.78
+      ],
+      [
+        42.0,
+        0.5,
+        162.0,
+        155.0,
+        108.0,
+        8.1,
+        4.0,
+        0.9
+      ],
+      [
+        40.0,
+        14.5,
+        358.0,
+        50.0,
+        75.0,
+        5.7,
+        2.1,
+        0.5
+      ]
+    ]
+  }
+}

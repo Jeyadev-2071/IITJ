@@ -1,0 +1,35 @@
+artifact_path: Decision Tree
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.1.post1
+mlflow_version: 2.18.0
+model_size_bytes: 10037
+model_uuid: c9943dff128543bc8c3a6517cae2aba0
+run_id: 1aa7fb3cae10414ca5b9eb7c5dd8c2ac
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Age", "required": true}, {"type": "double",
+    "name": "Total_Bilirubin", "required": true}, {"type": "double", "name": "Alkaline_Phosphotase",
+    "required": true}, {"type": "double", "name": "Alamine_Aminotransferase", "required":
+    true}, {"type": "double", "name": "Aspartate_Aminotransferase", "required": true},
+    {"type": "double", "name": "Total_Protiens", "required": true}, {"type": "double",
+    "name": "Albumin", "required": true}, {"type": "double", "name": "Albumin_and_Globulin_Ratio",
+    "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+utc_time_created: '2024-12-02 08:07:23.287924'

@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/GOD/Desktop/IIT/IITJ/ML_Ops-2/mlruns/610439896056337969/0a9692b94e5c4906bbb6894533f4430e/artifacts
+end_time: 1733128194751
+entry_point_name: ''
+experiment_id: '610439896056337969'
+lifecycle_stage: active
+run_id: 0a9692b94e5c4906bbb6894533f4430e
+run_name: Decision Tree
+run_uuid: 0a9692b94e5c4906bbb6894533f4430e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733128192691
+status: 3
+tags: []
+user_id: GOD

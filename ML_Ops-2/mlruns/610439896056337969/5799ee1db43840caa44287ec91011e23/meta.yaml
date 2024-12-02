@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/GOD/Desktop/IIT/IITJ/ML_Ops-2/mlruns/610439896056337969/5799ee1db43840caa44287ec91011e23/artifacts
+end_time: 1733127177857
+entry_point_name: ''
+experiment_id: '610439896056337969'
+lifecycle_stage: active
+run_id: 5799ee1db43840caa44287ec91011e23
+run_name: Random Forest
+run_uuid: 5799ee1db43840caa44287ec91011e23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733127175603
+status: 3
+tags: []
+user_id: GOD
