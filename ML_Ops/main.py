@@ -25,7 +25,6 @@ def predict():
             json_data = request.form["jsonData"]
             input_data = pd.read_json(json_data)
         else:
-            
             input_data = [
                 float(request.form[column]) for column in columns
             ]
